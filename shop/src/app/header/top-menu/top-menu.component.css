@@ -1,0 +1,21 @@
+.top-menu{
+    border-bottom: 1px solid #ededed;
+    margin: 0;
+    padding: 0;
+
+}
+.top-menu ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.top-menu li{
+    display: inline-block;
+margin: 0 15px 0 0;
+
+}
+.top-menu li a{
+    line-height: 31px;
+    color: #000;
+}
