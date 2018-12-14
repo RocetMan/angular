@@ -1,0 +1,9 @@
+<div class="top-menu">
+  <div class="container">
+    <li *ngFor="let menu of menuListData">
+      <a [routerLink]="['loyalty-program']" routerLinkActive="active">
+        {{menu.title}}
+      </a>
+    </li>
+  </div>
+</div>

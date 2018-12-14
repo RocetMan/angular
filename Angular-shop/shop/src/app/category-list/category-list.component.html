@@ -1,0 +1,12 @@
+<div class="main-menu">
+  <div class="container">
+    <ul class="main-list">
+      <li *ngFor="let category of categoryListData">
+        <a [routerLink]="['product-list', category.link]" routerLinkActive="active">
+          {{category.title}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
